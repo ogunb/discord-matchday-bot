@@ -1,5 +1,4 @@
 const DiscordService = require('./services/DiscordService');
-const TwitterService = require('./services/TwitterService');
 
 function sendMatchMessage(event, context) {
   DiscordService.login().then(() => {
